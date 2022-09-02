@@ -16,7 +16,6 @@
 ``` hcl
 terraform {
   backend "s3" {
-    #   encrypt = true 
     bucket = "terraform-backup-sagar"
     region = "us-west-2"
     key    = "backup.tfstate"
