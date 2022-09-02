@@ -1,6 +1,6 @@
 # Terraform Script to implement AWS backup plan. SO that auto backup of EBS.
 
-## What resources are created 
+## Following AWS resources will be created.
 - Backup Plan.
 - AWS KMS Key.
 - AWS Backup Vault.
@@ -25,14 +25,17 @@ terraform {
 ```
 
 ## Terraform 
+
 To create infra run the below mention command
 
 ```sh
+    - terraform fmt
     - terraform init
     - terraform plan
     - terraform apply    
 ```
-## Cleaning up
+
+## Cleaning up.
 
 Before deleting make sure you have removed all the deployments , service, Ingress etc. 
 
