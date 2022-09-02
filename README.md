@@ -14,6 +14,7 @@
 - You need to chnage the bucket name and the region name in "main.tf" file according to your need. If you want to keep your remote file local comment below given code in main.tf.
 
 ```json
+
 terraform {
   backend "s3" {
     #   encrypt = true 
@@ -22,6 +23,7 @@ terraform {
     key    = "backup.tfstate"
   }
 }
+
 ```
 
 ## Terraform 
