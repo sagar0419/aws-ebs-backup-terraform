@@ -9,7 +9,7 @@
 
 ### Details about repo.
 - This is a repo contains the code to implement auto backup of ebs.
-- To access the AWS you can add your access and secret key in terraform.tfvars file. Or the other way around is you can create the env variable with the name "TF_VAR_AWS_ACCESS_KEY" and "TF_VAR_AWS_SECRET_KEY" and this automation script will automatically fetch the variables during execution. 
+- To access the AWS you can add your access and secret key in terraform.tfvars file. Or the other way around is you can create the env variable with the name `"TF_VAR_AWS_ACCESS_KEY"` and `"TF_VAR_AWS_SECRET_KEY"` and this automation script will automatically fetch the variables during execution. 
 - All the variables are defined in vars.tf if you want to pass your variable add them in terraform.tfvars file. 
 - You need to chnage the bucket name and the region name in "main.tf" file according to your need. If you want to keep your remote file local comment below given code in main.tf.
 
