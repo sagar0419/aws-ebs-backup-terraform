@@ -1,4 +1,4 @@
-# Terraform Script to implement AWS backup plan. SO that auto backup of EBS.
+# Terraform Script to implement AWS backup plan. To automate backup of EBS.
 
 ## Following AWS resources will be created.
 - Backup Plan.
@@ -35,8 +35,6 @@ To create infra run the below mention command
 ```
 
 ## Cleaning up.
-
-Before deleting make sure you have removed all the deployments , service, Ingress etc. 
 
 You can destroy this cluster entirely by running:
 
