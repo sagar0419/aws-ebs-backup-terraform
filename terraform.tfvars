@@ -1,4 +1,4 @@
-##Default variable for VPC and eks cluster.
+##Default variable for EBS backup
 //AWS_ACCESS_KEY = <"">
 //AWS_SECRET_KEY = <"">
 aws_region  = "us-west-2"
